@@ -39,9 +39,7 @@ const HomePage = () => {
       {isRateLimited && <RateLimitedUI />}
 
       <div className="max-w-7xl mx-auto p-4 mt-6">
-        {loading && <div className="min-h-screen bg-base-200 flex items-center justify-center">
-          <AxeIcon className="animate-spin size-10" />
-        </div> }
+        {loading && <div className="text-center text-primary py-10 text-2xl">Loading notes...</div> }
 
         {notes.length === 0 && !loading &&!isRateLimited && <NotesNotFound />}
 
