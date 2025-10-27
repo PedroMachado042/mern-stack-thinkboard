@@ -11,8 +11,6 @@ const HomePage = () => {
   const [notes, setNotes] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const API = import.meta.env.VITE_API_URL;
-
   useEffect(() => {
     const fetchNotes = async () => {
       
@@ -32,7 +30,7 @@ const HomePage = () => {
       }
     };
     fetchNotes();
-  }, [API]);
+  }, []);
 
   return (
     <div className="min-h-screen">
