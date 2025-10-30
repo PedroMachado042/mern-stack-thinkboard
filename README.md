@@ -21,11 +21,9 @@ Aplicativo web completo para criação e gerenciamento de notas, desenvolvido co
 
 - Node.js
 - Express.js
+- MongoDB Atlas (banco de dados em nuvem)
+- Mongoose (modelagem de dados)
 
-MongoDB Atlas (banco de dados em nuvem)
+## Hospedagem
 
-Mongoose (modelagem de dados)
-
-Hospedagem
-
-Render.com (deploy do backend e frontend integrados)
+- Render.com (deploy do backend e frontend integrados)
