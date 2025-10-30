@@ -16,7 +16,9 @@ Aplicativo web completo para criação e gerenciamento de notas, desenvolvido co
 - React.js
 - Axios (requisições HTTP)
 - TailwindCSS (estilização responsiva e moderna)
-- Backend
+
+## Backend
+
 - Node.js
 - Express.js
 
